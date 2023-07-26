@@ -1,0 +1,1 @@
+mkdir /tmp/job2-$(date +%s ) >> /var/log/cron.log 2>&1
