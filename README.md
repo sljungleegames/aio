@@ -11,22 +11,20 @@
     where you can specify the absolute path to each job_name.sh file.
     
 
-    
-    
-    
-
-
-Customize the cron jobs:
+**Customize the cron jobs:**
 
     Inside the cron directory, create individual job_name.sh files, each containing the command you want to execute
     at specific times.
 
 
-Configure the cron schedule:
+**Configure the cron schedule:**
 
-    Edit the crontab file within the cron directory, providing the schedule and absolute paths to the corresponding job_name.sh files.
+    Edit the crontab file within the cron directory, providing the schedule and absolute paths to the corresponding
+    job_name.sh files.
     
-The cron jobs will now be executed as per the schedule specified in the crontab file. The logs will be available in /var/log/cron.log.
-    
-Note: Do not edit the supervisord.conf file, as it is responsible for process management in the container.
 
+The cron jobs will now be executed as per the schedule specified in the crontab file. The logs will be available
+in /var/log/cron.log.
+
+    
+**Note:** Do not edit the supervisord.conf file, as it is responsible for process management in the container.
