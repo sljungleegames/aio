@@ -3,8 +3,8 @@
 ### This repository contains a Dockerfile and supporting files to set up cron jobs inside a Docker container using Supervisor for process management.
 
 ## Description
-This Dockerfile builds an optimized Python 3.8 environment with cron and Supervisor to schedule and manage cron jobs in a container. The cron directory contains multiple job_name.sh files, each defining a specific command to execute at scheduled times. The schedule configuration is done in the crontab file within the cron directory, where you can specify the absolute path to each job_name.sh file.
 
+    This Dockerfile builds an optimized Python 3.8 environment with cron and Supervisor to schedule and manage cron jobs in a container. The cron directory contains multiple job_name.sh files, each defining a specific command to execute at scheduled times. The schedule configuration is done in the crontab file within the cron directory, where you can specify the absolute path to each job_name.sh file.
 
 
 Customize the cron jobs:
